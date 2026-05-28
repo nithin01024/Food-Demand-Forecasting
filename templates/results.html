@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Forecast Results</title>
+    <style>img{max-width:100%;height:auto}</style>
+  </head>
+  <body>
+    <h1>Forecast Results</h1>
+    <h2>Forecast Plot</h2>
+    <img src="{{ forecast_plot }}" alt="forecast">
+    <h2>Metrics Summary</h2>
+    <img src="{{ metrics_image }}" alt="metrics">
+    <h2>Raw Metrics</h2>
+    <pre>{{ metrics | tojson(indent=2) }}</pre>
+    <p><a href="/">Back</a></p>
+  </body>
+</html>
