@@ -29,3 +29,5 @@ The dataset is downloaded automatically when the forecasting script runs.
 - `models/` - modular model implementations (`regressors.py`, `classifiers.py`)
 - `output/` - generated plots and metrics images
 - `data/` - raw dataset
+# Food-Demand-Forecasting
+AI-based restaurant demand forecasting and inventory optimization project
